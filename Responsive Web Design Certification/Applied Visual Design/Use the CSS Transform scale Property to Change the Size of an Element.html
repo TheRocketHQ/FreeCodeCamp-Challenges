@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Use the CSS Transform scale Property to Change the Size of an Element</title>
+</head>
+
+<body>
+    <style>
+        .ball {
+            width: 40px;
+            height: 40px;
+            margin: 50 auto;
+            position: fixed;
+            background: linear-gradient( 35deg,
+            #ccffff,
+            #ffcccc);
+            border-radius: 50%;
+        }
+
+        #ball1 {
+            left: 20%;
+        }
+
+        #ball2 {
+            left: 65%;
+            transform: scale(1.5);
+        }
+    </style>
+
+    <div class="ball" id="ball1"></div>
+    <div class="ball" id="ball2"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
