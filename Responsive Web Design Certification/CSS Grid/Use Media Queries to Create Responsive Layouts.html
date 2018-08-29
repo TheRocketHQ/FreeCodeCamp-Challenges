@@ -61,11 +61,12 @@
         @media (min-width: 400px) {
             .container {
                 /* change the code below this line */
-
+                grid-template-columns: auto 1fr;
+                grid-template-rows: auto 1fr auto;
                 grid-template-areas:
-                    "advert header"
+                    "header header"
                     "advert content"
-                    "advert footer";
+                    "footer footer";
 
                 /* change the code above this line */
             }
